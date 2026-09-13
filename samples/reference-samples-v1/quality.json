@@ -1,0 +1,11 @@
+{
+  "frameCount": 240,
+  "expectedFrames": 240,
+  "missingFrames": 0,
+  "saturationPct": 0.0,
+  "emptyFrames": 0,
+  "nanValues": 0,
+  "duplicateFrames": 0,
+  "levelSamples": 64,
+  "note": "采集完整：240/240 帧回传；两条扫描路径各 120 帧，四个物理样本各 60 帧"
+}

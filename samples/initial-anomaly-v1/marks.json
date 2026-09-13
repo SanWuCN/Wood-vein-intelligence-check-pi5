@@ -1,0 +1,67 @@
+[
+  {
+    "markId": "mark-scan-Z04-001-01",
+    "batchId": "scan-Z04-001",
+    "frameId": "frame-00100",
+    "cameraAssetId": "frame_00100.png",
+    "deviceMonotonicNs": 10000000000,
+    "operatorLabel": "正面",
+    "positionSource": "operator_tag",
+    "note": "初扫首个关注位置（画面自第 96 帧起出现琥珀标记区）",
+    "createdAt": "2026-09-11T12:42:10Z",
+    "frameIndex": 100,
+    "imageOk": true
+  },
+  {
+    "markId": "mark-scan-Z04-001-02",
+    "batchId": "scan-Z04-001",
+    "frameId": "frame-00200",
+    "cameraAssetId": "frame_00200.png",
+    "deviceMonotonicNs": 20000000000,
+    "operatorLabel": "右侧",
+    "positionSource": "operator_tag",
+    "note": "响应开始抬升的位置",
+    "createdAt": "2026-09-11T12:42:20Z",
+    "frameIndex": 200,
+    "imageOk": true
+  },
+  {
+    "markId": "mark-scan-Z04-001-03",
+    "batchId": "scan-Z04-001",
+    "frameId": "frame-00260",
+    "cameraAssetId": "frame_00260.png",
+    "deviceMonotonicNs": 26000000000,
+    "operatorLabel": "",
+    "positionSource": "operator_tag",
+    "note": "0.62 响应区中心（操作者未选方向，界面只显示标记03）",
+    "createdAt": "2026-09-11T12:42:26Z",
+    "frameIndex": 260,
+    "imageOk": true
+  },
+  {
+    "markId": "mark-scan-Z04-001-04",
+    "batchId": "scan-Z04-001",
+    "frameId": "frame-00340",
+    "cameraAssetId": "frame_00340.png",
+    "deviceMonotonicNs": 34000000000,
+    "operatorLabel": "背面",
+    "positionSource": "operator_tag",
+    "note": "响应区下沿",
+    "createdAt": "2026-09-11T12:42:34Z",
+    "frameIndex": 340,
+    "imageOk": true
+  },
+  {
+    "markId": "mark-scan-Z04-001-05",
+    "batchId": "scan-Z04-001",
+    "frameId": "frame-00380",
+    "cameraAssetId": "frame_00380.png",
+    "deviceMonotonicNs": 38000000000,
+    "operatorLabel": "左侧",
+    "positionSource": "operator_tag",
+    "note": "平台暂停请求生效前最后一次标记",
+    "createdAt": "2026-09-11T12:42:38Z",
+    "frameIndex": 380,
+    "imageOk": true
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "markId": "mark-scan-Z04-002-01",
+    "batchId": "scan-Z04-002",
+    "frameId": "frame-00250",
+    "cameraAssetId": "frame_00250.png",
+    "deviceMonotonicNs": 25000000000,
+    "operatorLabel": "正面",
+    "positionSource": "operator_tag",
+    "note": "复扫起点（画面自第 250 帧起出现三处异常标记）",
+    "createdAt": "2026-09-11T13:26:25Z",
+    "frameIndex": 250,
+    "imageOk": true
+  },
+  {
+    "markId": "mark-scan-Z04-002-02",
+    "batchId": "scan-Z04-002",
+    "frameId": "frame-00290",
+    "cameraAssetId": "frame_00290.png",
+    "deviceMonotonicNs": 29000000000,
+    "operatorLabel": "自定义",
+    "positionSource": "operator_tag",
+    "note": "疑似受潮区域人工标记，与端侧初筛位置一致",
+    "createdAt": "2026-09-11T13:26:29Z",
+    "frameIndex": 290,
+    "imageOk": true
+  },
+  {
+    "markId": "mark-scan-Z04-002-03",
+    "batchId": "scan-Z04-002",
+    "frameId": "frame-00330",
+    "cameraAssetId": "frame_00330.png",
+    "deviceMonotonicNs": 33000000000,
+    "operatorLabel": "右侧",
+    "positionSource": "operator_tag",
+    "note": "疑似空洞（上部响应区）标记",
+    "createdAt": "2026-09-11T13:26:33Z",
+    "frameIndex": 330,
+    "imageOk": true
+  },
+  {
+    "markId": "mark-scan-Z04-002-04",
+    "batchId": "scan-Z04-002",
+    "frameId": "frame-00370",
+    "cameraAssetId": "frame_00370.png",
+    "deviceMonotonicNs": 37000000000,
+    "operatorLabel": "背面",
+    "positionSource": "operator_tag",
+    "note": "疑似空洞（下部响应区）标记",
+    "createdAt": "2026-09-11T13:26:37Z",
+    "frameIndex": 370,
+    "imageOk": true
+  },
+  {
+    "markId": "mark-scan-Z04-002-05",
+    "batchId": "scan-Z04-002",
+    "frameId": "frame-00410",
+    "cameraAssetId": "frame_00410.png",
+    "deviceMonotonicNs": 41000000000,
+    "operatorLabel": "左侧",
+    "positionSource": "operator_tag",
+    "note": "复扫结束位置",
+    "createdAt": "2026-09-11T13:26:41Z",
+    "frameIndex": 410,
+    "imageOk": true
+  }
+]

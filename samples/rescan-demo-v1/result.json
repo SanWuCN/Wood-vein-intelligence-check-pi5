@@ -1,0 +1,34 @@
+{
+  "conclusion": "preliminary",
+  "reviewer": "platform",
+  "note": "端侧初筛，待平台复核；不输出深度与形状",
+  "findings": [
+    {
+      "id": "CUR-Z04-01",
+      "label": "疑似严重受潮区域",
+      "score": 0.71,
+      "sampleIndex": 122,
+      "frameIndex": 292,
+      "branch": "radar",
+      "evidenceSegment": "echo-Z04-lower-seg-07"
+    },
+    {
+      "id": "CUR-Z04-02",
+      "label": "疑似虫蛀空洞（上部响应区）",
+      "score": 0.84,
+      "sampleIndex": 197,
+      "frameIndex": 330,
+      "branch": "fusion",
+      "evidenceSegment": "echo-Z04-lower-seg-11"
+    },
+    {
+      "id": "CUR-Z04-03",
+      "label": "疑似虫蛀空洞（下部响应区）",
+      "score": 0.87,
+      "sampleIndex": 260,
+      "frameIndex": 372,
+      "branch": "fusion",
+      "evidenceSegment": "echo-Z04-lower-seg-13"
+    }
+  ]
+}

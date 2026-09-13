@@ -1,0 +1,7 @@
+{
+  "conclusion": "withheld",
+  "reason": "适用域待核验：当前部署模型缺少该批次木材的有效标定记录",
+  "findings": [],
+  "modelVersion": "DEMO-M02",
+  "adequateDomain": false
+}

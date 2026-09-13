@@ -1,0 +1,11 @@
+{
+  "frameCount": 386,
+  "expectedFrames": 420,
+  "missingFrames": 34,
+  "saturationPct": 0.0,
+  "emptyFrames": 0,
+  "nanValues": 0,
+  "duplicateFrames": 0,
+  "levelSamples": 64,
+  "note": "因平台请求暂停 / 适用域待核验，第 386 帧后未继续采集，剩余 34 帧未回传"
+}

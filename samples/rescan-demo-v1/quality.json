@@ -1,0 +1,11 @@
+{
+  "frameCount": 420,
+  "expectedFrames": 420,
+  "missingFrames": 0,
+  "saturationPct": 0.0317,
+  "emptyFrames": 0,
+  "nanValues": 0,
+  "duplicateFrames": 0,
+  "levelSamples": 64,
+  "note": "采集完整：420/420 帧回传，无缺帧；末段三处异常响应待平台复核"
+}

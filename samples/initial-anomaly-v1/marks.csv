@@ -1,0 +1,6 @@
+mark_id,frame_index,zone_id,operator_label,position_source,device_monotonic_ns
+mark-scan-Z04-001-01,100,Z04-lower,正面,operator_tag,10000000000
+mark-scan-Z04-001-02,200,Z04-lower,右侧,operator_tag,20000000000
+mark-scan-Z04-001-03,260,Z04-lower,,operator_tag,26000000000
+mark-scan-Z04-001-04,340,Z04-lower,背面,operator_tag,34000000000
+mark-scan-Z04-001-05,380,Z04-lower,左侧,operator_tag,38000000000

@@ -1,0 +1,49 @@
+{
+  "device_id": "handheld-02",
+  "operator_id": "rao",
+  "data_dir": "/var/lib/woodpulse",
+  "scenario_root": "/opt/woodpulse/samples",
+  "log_level": "INFO",
+  "log_max_lines": 2000,
+  "log_file_max_bytes": 2097152,
+  "log_file_backups": 3,
+  "self_check_on_start": true,
+  "obey_pause": true,
+  "allow_no_camera": true,
+  "upload_preview": true,
+  "platform": {
+    "platform_url": "http://192.168.1.10:8000",
+    "device_id": "handheld-02",
+    "device_token": "请替换为现场分配的令牌",
+    "demo_session_id": "demo-01",
+    "heartbeat_interval_s": 5.0,
+    "offline_after_s": 15.0,
+    "reconnect_base_s": 1.0,
+    "reconnect_max_s": 20.0,
+    "request_timeout_s": 10.0,
+    "telemetry_interval_s": 1.0,
+    "allow_offline_capture": true,
+    "preview_upload": true,
+    "preview_upload_fps": 1.5
+  },
+  "camera": {
+    "backend": "v4l2",
+    "device": "/dev/video0",
+    "width": 1280,
+    "height": 720,
+    "fps": 15,
+    "retry_interval_s": 2.0,
+    "retry_max_interval_s": 20.0,
+    "preview_width": 640,
+    "preview_jpeg_quality": 70,
+    "display_fps": 15
+  },
+  "ui": {
+    "width": 800,
+    "height": 480,
+    "primary_button_height": 64,
+    "secondary_button_height": 48,
+    "fullscreen": true,
+    "main_view": "sequence"
+  }
+}

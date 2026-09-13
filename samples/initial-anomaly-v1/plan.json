@@ -1,0 +1,14 @@
+{
+  "zoneId": "Z04-lower",
+  "paths": [
+    {
+      "pathId": "path-01",
+      "directionDeg": 0,
+      "startFrame": 0,
+      "endFrame": 419,
+      "note": "自下而上正向扫描 Z04 下部；暂停请求在第 386 帧后生效，帧 386-419 未采集"
+    }
+  ],
+  "expectedFrames": 420,
+  "note": "初扫（触发适用域待核验）：计划 420 帧，实际回传 386 帧；路径与帧段按上表执行，停采位置以 quality.json 为准"
+}

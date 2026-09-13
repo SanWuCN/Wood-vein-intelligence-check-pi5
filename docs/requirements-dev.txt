@@ -1,0 +1,32 @@
+"""依赖清单。
+
+**运行时一个 pip 包都不需要。** 这个文件只是给开发机（Windows/macOS）装齐
+"和树莓派一样的环境"用的；实机请用 apt 安装，理由见下。
+
+树莓派（Raspberry Pi OS）：
+    sudo apt install -y python3-pyqt5 python3-pyqt5.qtsvg python3-psutil python3-opencv fonts-noto-cjk
+
+为什么实机不用 pip：
+  · apt 的 python3-pyqt5 与系统 Python 版本严格匹配，不会出现编译好的 sip 对不上；
+  · python3-opencv 走 apt 能带上 Pi 的硬件加速与 V4L2 支持；
+  · 现场少一个 pip 步骤，就少一类"装不上/装一半"的故障。
+
+开发机（仅用于跑测试、渲染界面快照）：
+    pip install -r docs/requirements-dev.txt
+"""
+
+# 运行必需（实机用 apt 装）
+PyQt5>=5.15        # 界面。也可用 PySide6，ui/qt.py 会自动识别
+psutil>=5.9        # CPU / 内存 / 网卡计数；缺失则降级读 /proc
+
+# 可选：装了才有相机实采能力；不装则相机能力声明为 "unavailable"
+opencv-python>=4.5
+
+# 可选：Pi 5 官方相机栈（走 libcamera）。用 libcamera 时相机后端配 picamera2
+# picamera2>=0.3
+
+# 说明：
+#   · WebSocket 客户端（RFC6455）是自己实现的，不需要 websockets / websocket-client
+#   · HTTP 客户端用标准库 urllib，不需要 requests / aiohttp
+#   · 界面绘图用 QPainter 自绘，不需要 pyqtgraph / matplotlib / numpy
+#     （numpy 只在 picamera2 路径下由 picamera2 自己引入）

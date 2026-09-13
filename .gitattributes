@@ -1,0 +1,26 @@
+# 统一换行：仓库内一律 LF，避免树莓派（Linux）拉下来出现 CRLF 导致
+# python3 -m woodpulse 报 "bad interpreter" 之类的问题。
+* text=auto eol=lf
+
+# Windows 上要双击运行的脚本保留 CRLF
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# 二进制资源不做换行转换
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.zip binary
+*.sog binary
+*.db binary
+*.pyc binary
+
+# GitHub 语言统计：样例包与文档不要把 Python 淹掉
+*.csv linguist-generated=true
+*.json linguist-generated=true
+samples/** linguist-vendored=true
+
+# diff 里不展开的生成物
+docs/shots/*.png -diff
+samples/**/*.csv -diff
+samples/**/*.json -diff

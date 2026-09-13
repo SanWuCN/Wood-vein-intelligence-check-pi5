@@ -1,0 +1,19 @@
+{
+  "configVersion": "CFG-02",
+  "source": "platform",
+  "publishedAt": "2026-09-11T12:41:00Z",
+  "airTempC": 26.4,
+  "relativeHumidityPct": 78.0,
+  "windSpeedMs": 1.6,
+  "instrumentId": "THM-2207 / ANE-3310",
+  "position": "四柱区域入口，距 Z04 2.4m，离地 1.1m",
+  "compensation": {
+    "baselineOffsetDb": -1.8,
+    "normalization": "reference_normalized",
+    "functionVersion": "comp-v1.4"
+  },
+  "notes": {
+    "wind": "风速仅作采集稳定性记录，不代入 HH 模型",
+    "emc": "HH 估计是环境先验，不是木柱实测含水率"
+  }
+}

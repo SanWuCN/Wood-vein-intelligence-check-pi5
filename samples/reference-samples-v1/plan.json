@@ -1,0 +1,21 @@
+{
+  "zoneId": "Z04-lower",
+  "paths": [
+    {
+      "pathId": "path-01",
+      "directionDeg": 0,
+      "startFrame": 0,
+      "endFrame": 119,
+      "note": "正向扫描，依次覆盖 S-01 / S-02 / S-03 / S-04，每个样本 30 帧"
+    },
+    {
+      "pathId": "path-02",
+      "directionDeg": 90,
+      "startFrame": 120,
+      "endFrame": 239,
+      "note": "换向 90° 重复采集，样本顺序与 path-01 相同"
+    }
+  ],
+  "expectedFrames": 240,
+  "note": "参考样本采集：计划 240 帧，实际回传 240 帧；路径与帧段按上表执行，停采位置以 quality.json 为准"
+}
